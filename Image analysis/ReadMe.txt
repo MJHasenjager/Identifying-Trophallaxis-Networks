@@ -6,7 +6,7 @@ The matlab script ‘Tracking’ traverses all thresholds in a range pre-defined
 
 The matlab script 'AddlabelSpeed' labels four corners of each tag in a sequence of numbers from 1 to 4, and sort those labels based on their relative distance with the center of the tag. Labels will be used for further analyses, e.g. calibration of heading direction for each ant on each frame. Meanwhile, speed of ant at each frame is added into the output of "tracking.m" as well.
 
-network measures at the individual level based on the networks extracted from the 'network data.' It calculates 'betweenness' and 'degree' for each node in the networks, alongside additional information such as group size, conditions, and the date of data collection. The output of this script is saved and subsequently is added utilized in the 'Data_analysis_and_plots_for_paper_final' script for further analysis and visualization.
+The matlab script "
 
  The matlab script 'AddlabelSpeed' – information on the treatment (limited or unlimited food, carbohydrate or protein food, and group size) for each group in the experiment. 
 
